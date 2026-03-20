@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Umschreiben, Korrekturlesen, Zusammenfassen und mehr.\nAngetrieben von KI, die vollständig auf Ihrem Gerät läuft.\nPrivatsphäre durch Design.</string>
+    <string name="setup_get_started">Loslegen</string>
+    <string name="setup_models_title">KI-Modell herunterladen</string>
+    <string name="setup_models_subtitle">Dieses Modell läuft vollständig auf Ihrem Gerät.</string>
+    <string name="setup_download_btn_with_size">Modell herunterladen (~%d MB)</string>
+    <string name="setup_downloading">Wird heruntergeladen…</string>
+    <string name="setup_ready_title">Alles bereit!</string>
+    <string name="setup_ready_subtitle">Wählen Sie Text in einer beliebigen App aus und tippen Sie dann auf \"Writing Assistant\" im Kontextmenü, um ihn zu transformieren.</string>
+    <string name="setup_open_app">Writing Assistant öffnen</string>
+    <string name="setup_model_section">KI-Modell (~%d MB)</string>
+    <string name="setup_continue">Weiter</string>
+    <string name="setup_downloaded_cd">Heruntergeladen</string>
+    <string name="setup_error_cd">Fehler</string>
+    <string name="home_clear_text_cd">Text löschen</string>
+    <string name="home_placeholder">Hier tippen und schreiben beginnen…</string>
+    <string name="home_download_model">Modell herunterladen</string>
+    <string name="home_applied">Auf Textfeld angewendet</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Zurück</string>
+    <string name="tools_back">Zurück</string>
+    <string name="tools_copied">In die Zwischenablage kopiert</string>
+    <string name="tools_your_text">Ihr Text</string>
+    <string name="tools_placeholder">Text zum Verbessern einfügen oder eingeben…</string>
+    <string name="tools_loading">KI-Modell wird geladen…</string>
+    <string name="tools_applying">%s wird angewendet…</string>
+    <string name="tools_result_label">Ergebnis — zum Bearbeiten tippen</string>
+    <string name="tools_retry">Erneut versuchen</string>
+    <string name="tools_copy">Kopieren</string>
+    <string name="tools_replace">Ersetzen</string>
+    <string name="tools_cancel">Abbrechen</string>
+    <string name="tools_error">Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.</string>
+    <string name="sheet_model_title">KI-Modell erforderlich</string>
+    <string name="sheet_model_subtitle">Laden Sie das KI-Modell (~%d MB) herunter, um Writing Assistant zu verwenden.</string>
+    <string name="sheet_model_download_btn">Herunterladen (~%d MB)</string>
+    <string name="sheet_model_ready">KI-Modell bereit — Sie sind startklar!</string>
+    <string name="tools_input_too_long">Text zu lang — auf %d Zeichen gekürzt</string>
+    <plurals name="word_count">
+        <item quantity="one">%d Wort</item>
+        <item quantity="other">%d Wörter</item>
+    </plurals>
+</resources>

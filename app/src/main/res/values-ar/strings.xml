@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">أعِد الكتابة، وصحِّح، ولخِّص والمزيد.\nمدعوم بالذكاء الاصطناعي الذي يعمل بالكامل على جهازك.\nخصوصية بالتصميم.</string>
+    <string name="setup_get_started">ابدأ</string>
+    <string name="setup_models_title">تنزيل نموذج الذكاء الاصطناعي</string>
+    <string name="setup_models_subtitle">يعمل هذا النموذج بالكامل على جهازك.</string>
+    <string name="setup_download_btn_with_size">تنزيل النموذج (~%d ميغابايت)</string>
+    <string name="setup_downloading">جارٍ التنزيل…</string>
+    <string name="setup_ready_title">أنت جاهز تمامًا!</string>
+    <string name="setup_ready_subtitle">حدِّد نصًا في أي تطبيق، ثم اضغط على \"Writing Assistant\" في قائمة السياق لتحويله.</string>
+    <string name="setup_open_app">فتح Writing Assistant</string>
+    <string name="setup_model_section">نموذج الذكاء الاصطناعي (~%d ميغابايت)</string>
+    <string name="setup_continue">متابعة</string>
+    <string name="setup_downloaded_cd">تم التنزيل</string>
+    <string name="setup_error_cd">خطأ</string>
+    <string name="home_clear_text_cd">مسح النص</string>
+    <string name="home_placeholder">اضغط هنا وابدأ الكتابة…</string>
+    <string name="home_download_model">تنزيل النموذج</string>
+    <string name="home_applied">تم التطبيق على مربع النص</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">رجوع</string>
+    <string name="tools_back">رجوع</string>
+    <string name="tools_copied">تم النسخ إلى الحافظة</string>
+    <string name="tools_your_text">نصك</string>
+    <string name="tools_placeholder">الصق أو اكتب نصًا لتحسينه…</string>
+    <string name="tools_loading">جارٍ تحميل نموذج الذكاء الاصطناعي…</string>
+    <string name="tools_applying">جارٍ تطبيق %s…</string>
+    <string name="tools_result_label">النتيجة — اضغط للتعديل</string>
+    <string name="tools_retry">إعادة المحاولة</string>
+    <string name="tools_copy">نسخ</string>
+    <string name="tools_replace">استبدال</string>
+    <string name="tools_cancel">إلغاء</string>
+    <string name="tools_error">حدث خطأ ما. يرجى المحاولة مرة أخرى.</string>
+    <string name="sheet_model_title">نموذج الذكاء الاصطناعي مطلوب</string>
+    <string name="sheet_model_subtitle">نزِّل نموذج الذكاء الاصطناعي (~%d ميغابايت) لاستخدام Writing Assistant.</string>
+    <string name="sheet_model_download_btn">تنزيل (~%d ميغابايت)</string>
+    <string name="sheet_model_ready">نموذج الذكاء الاصطناعي جاهز — أنت مستعد تمامًا!</string>
+    <string name="tools_input_too_long">النص طويل جدًا — تم اقتطاعه إلى %d حرفًا</string>
+    <plurals name="word_count">
+        <item quantity="zero">%d كلمة</item>
+        <item quantity="one">%d كلمة</item>
+        <item quantity="two">%d كلمتان</item>
+        <item quantity="few">%d كلمات</item>
+        <item quantity="many">%d كلمة</item>
+        <item quantity="other">%d كلمة</item>
+    </plurals>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Reescreva, revise, resuma e muito mais.\nAlimentado por IA a correr inteiramente no seu dispositivo.\nPrivacidade por design.</string>
+    <string name="setup_get_started">Começar</string>
+    <string name="setup_models_title">Transferir modelo de IA</string>
+    <string name="setup_models_subtitle">Este modelo corre inteiramente no seu dispositivo.</string>
+    <string name="setup_download_btn_with_size">Transferir modelo (~%d MB)</string>
+    <string name="setup_downloading">A transferir…</string>
+    <string name="setup_ready_title">Está tudo pronto!</string>
+    <string name="setup_ready_subtitle">Selecione texto em qualquer aplicação e toque em \"Writing Assistant\" no menu de contexto para o transformar.</string>
+    <string name="setup_open_app">Abrir Writing Assistant</string>
+    <string name="setup_model_section">Modelo de IA (~%d MB)</string>
+    <string name="setup_continue">Continuar</string>
+    <string name="setup_downloaded_cd">Transferido</string>
+    <string name="setup_error_cd">Erro</string>
+    <string name="home_clear_text_cd">Limpar texto</string>
+    <string name="home_placeholder">Toque aqui e comece a escrever…</string>
+    <string name="home_download_model">Transferir modelo</string>
+    <string name="home_applied">Aplicado à caixa de texto</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Voltar</string>
+    <string name="tools_back">Voltar</string>
+    <string name="tools_copied">Copiado para a área de transferência</string>
+    <string name="tools_your_text">O seu texto</string>
+    <string name="tools_placeholder">Cole ou escreva texto para melhorar…</string>
+    <string name="tools_loading">A carregar modelo de IA…</string>
+    <string name="tools_applying">A aplicar %s…</string>
+    <string name="tools_result_label">Resultado — toque para editar</string>
+    <string name="tools_retry">Tentar novamente</string>
+    <string name="tools_copy">Copiar</string>
+    <string name="tools_replace">Substituir</string>
+    <string name="tools_cancel">Cancelar</string>
+    <string name="tools_error">Algo correu mal. Por favor tente novamente.</string>
+    <string name="sheet_model_title">Modelo de IA necessário</string>
+    <string name="sheet_model_subtitle">Transfira o modelo de IA (~%d MB) para usar o Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Transferir (~%d MB)</string>
+    <string name="sheet_model_ready">Modelo de IA pronto — está tudo configurado!</string>
+    <string name="tools_input_too_long">Texto demasiado longo — reduzido a %d caracteres</string>
+    <plurals name="word_count">
+        <item quantity="one">%d palavra</item>
+        <item quantity="other">%d palavras</item>
+    </plurals>
+</resources>

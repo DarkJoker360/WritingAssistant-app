@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">재작성, 교정, 요약 등 다양한 기능.\n기기에서 완전히 실행되는 AI 기반.\n설계부터 프라이버시 보호.</string>
+    <string name="setup_get_started">시작하기</string>
+    <string name="setup_models_title">AI 모델 다운로드</string>
+    <string name="setup_models_subtitle">이 모델은 기기에서 완전히 실행됩니다.</string>
+    <string name="setup_download_btn_with_size">모델 다운로드 (~%d MB)</string>
+    <string name="setup_downloading">다운로드 중…</string>
+    <string name="setup_ready_title">모든 준비 완료!</string>
+    <string name="setup_ready_subtitle">앱에서 텍스트를 선택한 후 상황에 맞는 메뉴에서 \"Writing Assistant\"를 탭하여 변환하세요.</string>
+    <string name="setup_open_app">Writing Assistant 열기</string>
+    <string name="setup_model_section">AI 모델 (~%d MB)</string>
+    <string name="setup_continue">계속</string>
+    <string name="setup_downloaded_cd">다운로드됨</string>
+    <string name="setup_error_cd">오류</string>
+    <string name="home_clear_text_cd">텍스트 지우기</string>
+    <string name="home_placeholder">여기를 탭하여 작성 시작…</string>
+    <string name="home_download_model">모델 다운로드</string>
+    <string name="home_applied">텍스트 상자에 적용됨</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">뒤로</string>
+    <string name="tools_back">뒤로</string>
+    <string name="tools_copied">클립보드에 복사됨</string>
+    <string name="tools_your_text">내 텍스트</string>
+    <string name="tools_placeholder">개선할 텍스트를 붙여넣거나 입력하세요…</string>
+    <string name="tools_loading">AI 모델 로딩 중…</string>
+    <string name="tools_applying">%s 적용 중…</string>
+    <string name="tools_result_label">결과 — 탭하여 편집</string>
+    <string name="tools_retry">재시도</string>
+    <string name="tools_copy">복사</string>
+    <string name="tools_replace">교체</string>
+    <string name="tools_cancel">취소</string>
+    <string name="tools_error">문제가 발생했습니다. 다시 시도해 주세요.</string>
+    <string name="sheet_model_title">AI 모델 필요</string>
+    <string name="sheet_model_subtitle">Writing Assistant를 사용하려면 AI 모델(~%d MB)을 다운로드하세요.</string>
+    <string name="sheet_model_download_btn">다운로드 (~%d MB)</string>
+    <string name="sheet_model_ready">AI 모델 준비 완료 — 모든 설정이 완료되었습니다!</string>
+    <string name="tools_input_too_long">텍스트가 너무 깁니다 — %d자로 잘렸습니다</string>
+    <plurals name="word_count">
+        <item quantity="other">%d 단어</item>
+    </plurals>
+</resources>

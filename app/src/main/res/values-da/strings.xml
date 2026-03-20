@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Omskriv, korrekturlæs, opsummer og mere.\nDrevet af AI, der kører helt på din enhed.\nPrivatliv by design.</string>
+    <string name="setup_get_started">Kom i gang</string>
+    <string name="setup_models_title">Download AI-model</string>
+    <string name="setup_models_subtitle">Denne model kører helt på din enhed.</string>
+    <string name="setup_download_btn_with_size">Download model (~%d MB)</string>
+    <string name="setup_downloading">Downloader…</string>
+    <string name="setup_ready_title">Du er klar!</string>
+    <string name="setup_ready_subtitle">Vælg tekst i en app, og tryk derefter på \"Writing Assistant\" i genvejsmenuen for at transformere den.</string>
+    <string name="setup_open_app">Åbn Writing Assistant</string>
+    <string name="setup_model_section">AI-model (~%d MB)</string>
+    <string name="setup_continue">Fortsæt</string>
+    <string name="setup_downloaded_cd">Downloadet</string>
+    <string name="setup_error_cd">Fejl</string>
+    <string name="home_clear_text_cd">Ryd tekst</string>
+    <string name="home_placeholder">Tryk her og begynd at skrive…</string>
+    <string name="home_download_model">Download model</string>
+    <string name="home_applied">Anvendt på tekstboksen</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Tilbage</string>
+    <string name="tools_back">Tilbage</string>
+    <string name="tools_copied">Kopieret til udklipsholder</string>
+    <string name="tools_your_text">Din tekst</string>
+    <string name="tools_placeholder">Indsæt eller skriv tekst, der skal forbedres…</string>
+    <string name="tools_loading">Indlæser AI-model…</string>
+    <string name="tools_applying">Anvender %s…</string>
+    <string name="tools_result_label">Resultat — tryk for at redigere</string>
+    <string name="tools_retry">Prøv igen</string>
+    <string name="tools_copy">Kopiér</string>
+    <string name="tools_replace">Erstat</string>
+    <string name="tools_cancel">Annullér</string>
+    <string name="tools_error">Noget gik galt. Prøv venligst igen.</string>
+    <string name="sheet_model_title">AI-model påkrævet</string>
+    <string name="sheet_model_subtitle">Download AI-modellen (~%d MB) for at bruge Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Download (~%d MB)</string>
+    <string name="sheet_model_ready">AI-model klar — du er helt klar!</string>
+    <string name="tools_input_too_long">Tekst for lang — trimmet til %d tegn</string>
+    <plurals name="word_count">
+        <item quantity="one">%d ord</item>
+        <item quantity="other">%d ord</item>
+    </plurals>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Переписуйте, редагуйте, підсумовуйте та багато іншого.\nПрацює на штучному інтелекті, що повністю запущений на вашому пристрої.\nКонфіденційність за задумом.</string>
+    <string name="setup_get_started">Почати</string>
+    <string name="setup_models_title">Завантажити модель ШІ</string>
+    <string name="setup_models_subtitle">Ця модель повністю працює на вашому пристрої.</string>
+    <string name="setup_download_btn_with_size">Завантажити модель (~%d МБ)</string>
+    <string name="setup_downloading">Завантаження…</string>
+    <string name="setup_ready_title">Все готово!</string>
+    <string name="setup_ready_subtitle">Виділіть текст у будь-якому додатку, а потім натисніть «Writing Assistant» у контекстному меню, щоб перетворити його.</string>
+    <string name="setup_open_app">Відкрити Writing Assistant</string>
+    <string name="setup_model_section">Модель ШІ (~%d МБ)</string>
+    <string name="setup_continue">Продовжити</string>
+    <string name="setup_downloaded_cd">Завантажено</string>
+    <string name="setup_error_cd">Помилка</string>
+    <string name="home_clear_text_cd">Очистити текст</string>
+    <string name="home_placeholder">Натисніть тут і почніть писати…</string>
+    <string name="home_download_model">Завантажити модель</string>
+    <string name="home_applied">Застосовано до текстового поля</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Назад</string>
+    <string name="tools_back">Назад</string>
+    <string name="tools_copied">Скопійовано до буфера обміну</string>
+    <string name="tools_your_text">Ваш текст</string>
+    <string name="tools_placeholder">Вставте або введіть текст для покращення…</string>
+    <string name="tools_loading">Завантаження моделі ШІ…</string>
+    <string name="tools_applying">Застосовується %s…</string>
+    <string name="tools_result_label">Результат — натисніть для редагування</string>
+    <string name="tools_retry">Повторити</string>
+    <string name="tools_copy">Копіювати</string>
+    <string name="tools_replace">Замінити</string>
+    <string name="tools_cancel">Скасувати</string>
+    <string name="tools_error">Щось пішло не так. Будь ласка, спробуйте ще раз.</string>
+    <string name="sheet_model_title">Потрібна модель ШІ</string>
+    <string name="sheet_model_subtitle">Завантажте модель ШІ (~%d МБ), щоб використовувати Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Завантажити (~%d МБ)</string>
+    <string name="sheet_model_ready">Модель ШІ готова — все налаштовано!</string>
+    <string name="tools_input_too_long">Текст занадто довгий — скорочено до %d символів</string>
+    <plurals name="word_count">
+        <item quantity="one">%d слово</item>
+        <item quantity="few">%d слова</item>
+        <item quantity="many">%d слів</item>
+        <item quantity="other">%d слова</item>
+    </plurals>
+</resources>

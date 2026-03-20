@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Yeniden yazın, düzeltin, özetleyin ve daha fazlası.\nTamamen cihazınızda çalışan yapay zeka ile desteklendi.\nTasarımla gizlilik.</string>
+    <string name="setup_get_started">Başlayın</string>
+    <string name="setup_models_title">Yapay Zeka Modelini İndir</string>
+    <string name="setup_models_subtitle">Bu model tamamen cihazınızda çalışır.</string>
+    <string name="setup_download_btn_with_size">Modeli İndir (~%d MB)</string>
+    <string name="setup_downloading">İndiriliyor…</string>
+    <string name="setup_ready_title">Hazırsınız!</string>
+    <string name="setup_ready_subtitle">Herhangi bir uygulamada metin seçin, ardından dönüştürmek için bağlam menüsünde \"Writing Assistant\" seçeneğine dokunun.</string>
+    <string name="setup_open_app">Writing Assistant\'ı Aç</string>
+    <string name="setup_model_section">Yapay Zeka Modeli (~%d MB)</string>
+    <string name="setup_continue">Devam Et</string>
+    <string name="setup_downloaded_cd">İndirildi</string>
+    <string name="setup_error_cd">Hata</string>
+    <string name="home_clear_text_cd">Metni temizle</string>
+    <string name="home_placeholder">Buraya dokunun ve yazmaya başlayın…</string>
+    <string name="home_download_model">Modeli indir</string>
+    <string name="home_applied">Metin kutusuna uygulandı</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Geri</string>
+    <string name="tools_back">Geri</string>
+    <string name="tools_copied">Panoya kopyalandı</string>
+    <string name="tools_your_text">Metniniz</string>
+    <string name="tools_placeholder">Geliştirmek için metin yapıştırın veya yazın…</string>
+    <string name="tools_loading">Yapay zeka modeli yükleniyor…</string>
+    <string name="tools_applying">%s uygulanıyor…</string>
+    <string name="tools_result_label">Sonuç — düzenlemek için dokunun</string>
+    <string name="tools_retry">Yeniden Dene</string>
+    <string name="tools_copy">Kopyala</string>
+    <string name="tools_replace">Değiştir</string>
+    <string name="tools_cancel">İptal</string>
+    <string name="tools_error">Bir şeyler yanlış gitti. Lütfen tekrar deneyin.</string>
+    <string name="sheet_model_title">Yapay Zeka Modeli Gerekli</string>
+    <string name="sheet_model_subtitle">Writing Assistant\'ı kullanmak için yapay zeka modelini (~%d MB) indirin.</string>
+    <string name="sheet_model_download_btn">İndir (~%d MB)</string>
+    <string name="sheet_model_ready">Yapay zeka modeli hazır — her şey ayarlandı!</string>
+    <string name="tools_input_too_long">Metin çok uzun — %d karaktere kısaltıldı</string>
+    <plurals name="word_count">
+        <item quantity="one">%d kelime</item>
+        <item quantity="other">%d kelime</item>
+    </plurals>
+</resources>

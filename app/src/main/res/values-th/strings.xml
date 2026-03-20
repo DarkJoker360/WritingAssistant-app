@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">เขียนใหม่ ตรวจทาน สรุป และอื่นๆ อีกมากมาย\nขับเคลื่อนด้วย AI ที่ทำงานบนอุปกรณ์ของคุณทั้งหมด\nความเป็นส่วนตัวโดยการออกแบบ</string>
+    <string name="setup_get_started">เริ่มต้น</string>
+    <string name="setup_models_title">ดาวน์โหลดโมเดล AI</string>
+    <string name="setup_models_subtitle">โมเดลนี้ทำงานบนอุปกรณ์ของคุณทั้งหมด</string>
+    <string name="setup_download_btn_with_size">ดาวน์โหลดโมเดล (~%d MB)</string>
+    <string name="setup_downloading">กำลังดาวน์โหลด…</string>
+    <string name="setup_ready_title">พร้อมแล้ว!</string>
+    <string name="setup_ready_subtitle">เลือกข้อความในแอปใดก็ได้ จากนั้นแตะ \"Writing Assistant\" ในเมนูบริบทเพื่อแปลง</string>
+    <string name="setup_open_app">เปิด Writing Assistant</string>
+    <string name="setup_model_section">โมเดล AI (~%d MB)</string>
+    <string name="setup_continue">ดำเนินการต่อ</string>
+    <string name="setup_downloaded_cd">ดาวน์โหลดแล้ว</string>
+    <string name="setup_error_cd">ข้อผิดพลาด</string>
+    <string name="home_clear_text_cd">ล้างข้อความ</string>
+    <string name="home_placeholder">แตะที่นี่แล้วเริ่มเขียน…</string>
+    <string name="home_download_model">ดาวน์โหลดโมเดล</string>
+    <string name="home_applied">นำไปใช้กับกล่องข้อความแล้ว</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">กลับ</string>
+    <string name="tools_back">กลับ</string>
+    <string name="tools_copied">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
+    <string name="tools_your_text">ข้อความของคุณ</string>
+    <string name="tools_placeholder">วางหรือพิมพ์ข้อความที่ต้องการปรับปรุง…</string>
+    <string name="tools_loading">กำลังโหลดโมเดล AI…</string>
+    <string name="tools_applying">กำลังใช้ %s…</string>
+    <string name="tools_result_label">ผลลัพธ์ — แตะเพื่อแก้ไข</string>
+    <string name="tools_retry">ลองใหม่</string>
+    <string name="tools_copy">คัดลอก</string>
+    <string name="tools_replace">แทนที่</string>
+    <string name="tools_cancel">ยกเลิก</string>
+    <string name="tools_error">เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง</string>
+    <string name="sheet_model_title">ต้องใช้โมเดล AI</string>
+    <string name="sheet_model_subtitle">ดาวน์โหลดโมเดล AI (~%d MB) เพื่อใช้ Writing Assistant</string>
+    <string name="sheet_model_download_btn">ดาวน์โหลด (~%d MB)</string>
+    <string name="sheet_model_ready">โมเดล AI พร้อมแล้ว — ทุกอย่างพร้อมใช้งาน!</string>
+    <string name="tools_input_too_long">ข้อความยาวเกินไป — ตัดให้เหลือ %d อักขระ</string>
+    <plurals name="word_count">
+        <item quantity="other">%d คำ</item>
+    </plurals>
+</resources>

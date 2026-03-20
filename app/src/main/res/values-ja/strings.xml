@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">書き直し、校正、要約など、さまざまな機能。\nデバイス上で完全に動作する AI を搭載。\nプライバシーを重視した設計。</string>
+    <string name="setup_get_started">始める</string>
+    <string name="setup_models_title">AI モデルをダウンロード</string>
+    <string name="setup_models_subtitle">このモデルはデバイス上で完全に動作します。</string>
+    <string name="setup_download_btn_with_size">モデルをダウンロード（約 %d MB）</string>
+    <string name="setup_downloading">ダウンロード中…</string>
+    <string name="setup_ready_title">準備完了！</string>
+    <string name="setup_ready_subtitle">任意のアプリでテキストを選択し、コンテキストメニューの「Writing Assistant」をタップして変換してください。</string>
+    <string name="setup_open_app">Writing Assistant を開く</string>
+    <string name="setup_model_section">AI モデル（約 %d MB）</string>
+    <string name="setup_continue">続ける</string>
+    <string name="setup_downloaded_cd">ダウンロード済み</string>
+    <string name="setup_error_cd">エラー</string>
+    <string name="home_clear_text_cd">テキストをクリア</string>
+    <string name="home_placeholder">ここをタップして書き始める…</string>
+    <string name="home_download_model">モデルをダウンロード</string>
+    <string name="home_applied">テキストボックスに適用しました</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">戻る</string>
+    <string name="tools_back">戻る</string>
+    <string name="tools_copied">クリップボードにコピーしました</string>
+    <string name="tools_your_text">あなたのテキスト</string>
+    <string name="tools_placeholder">改善したいテキストを貼り付けるか入力してください…</string>
+    <string name="tools_loading">AI モデルを読み込み中…</string>
+    <string name="tools_applying">%s を適用中…</string>
+    <string name="tools_result_label">結果 — タップして編集</string>
+    <string name="tools_retry">再試行</string>
+    <string name="tools_copy">コピー</string>
+    <string name="tools_replace">置き換え</string>
+    <string name="tools_cancel">キャンセル</string>
+    <string name="tools_error">問題が発生しました。もう一度お試しください。</string>
+    <string name="sheet_model_title">AI モデルが必要です</string>
+    <string name="sheet_model_subtitle">Writing Assistant を使用するには AI モデル（約 %d MB）をダウンロードしてください。</string>
+    <string name="sheet_model_download_btn">ダウンロード（約 %d MB）</string>
+    <string name="sheet_model_ready">AI モデルの準備完了 — すべて設定されています！</string>
+    <string name="tools_input_too_long">テキストが長すぎます — %d 文字に切り詰めました</string>
+    <plurals name="word_count">
+        <item quantity="other">%d 語</item>
+    </plurals>
+</resources>

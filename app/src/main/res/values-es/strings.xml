@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Reescribe, corrige, resume y mucho más.\nImpulsado por IA que se ejecuta completamente en tu dispositivo.\nPrivacidad por diseño.</string>
+    <string name="setup_get_started">Comenzar</string>
+    <string name="setup_models_title">Descargar modelo de IA</string>
+    <string name="setup_models_subtitle">Este modelo se ejecuta completamente en tu dispositivo.</string>
+    <string name="setup_download_btn_with_size">Descargar modelo (~%d MB)</string>
+    <string name="setup_downloading">Descargando…</string>
+    <string name="setup_ready_title">¡Todo listo!</string>
+    <string name="setup_ready_subtitle">Selecciona texto en cualquier app y luego toca \"Writing Assistant\" en el menú contextual para transformarlo.</string>
+    <string name="setup_open_app">Abrir Writing Assistant</string>
+    <string name="setup_model_section">Modelo de IA (~%d MB)</string>
+    <string name="setup_continue">Continuar</string>
+    <string name="setup_downloaded_cd">Descargado</string>
+    <string name="setup_error_cd">Error</string>
+    <string name="home_clear_text_cd">Borrar texto</string>
+    <string name="home_placeholder">Toca aquí y empieza a escribir…</string>
+    <string name="home_download_model">Descargar modelo</string>
+    <string name="home_applied">Aplicado al cuadro de texto</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Atrás</string>
+    <string name="tools_back">Atrás</string>
+    <string name="tools_copied">Copiado al portapapeles</string>
+    <string name="tools_your_text">Tu texto</string>
+    <string name="tools_placeholder">Pega o escribe texto para mejorar…</string>
+    <string name="tools_loading">Cargando modelo de IA…</string>
+    <string name="tools_applying">Aplicando %s…</string>
+    <string name="tools_result_label">Resultado — toca para editar</string>
+    <string name="tools_retry">Reintentar</string>
+    <string name="tools_copy">Copiar</string>
+    <string name="tools_replace">Reemplazar</string>
+    <string name="tools_cancel">Cancelar</string>
+    <string name="tools_error">Algo salió mal. Por favor, inténtalo de nuevo.</string>
+    <string name="sheet_model_title">Modelo de IA requerido</string>
+    <string name="sheet_model_subtitle">Descarga el modelo de IA (~%d MB) para usar Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Descargar (~%d MB)</string>
+    <string name="sheet_model_ready">Modelo de IA listo — ¡todo está configurado!</string>
+    <string name="tools_input_too_long">Texto demasiado largo — recortado a %d caracteres</string>
+    <plurals name="word_count">
+        <item quantity="one">%d palabra</item>
+        <item quantity="other">%d palabras</item>
+    </plurals>
+</resources>

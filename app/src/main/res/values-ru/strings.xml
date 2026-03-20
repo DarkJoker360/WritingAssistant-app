@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Переписывайте, редактируйте, суммируйте и многое другое.\nРаботает на ИИ, полностью запущенном на вашем устройстве.\nКонфиденциальность по умолчанию.</string>
+    <string name="setup_get_started">Начать</string>
+    <string name="setup_models_title">Загрузить модель ИИ</string>
+    <string name="setup_models_subtitle">Эта модель работает полностью на вашем устройстве.</string>
+    <string name="setup_download_btn_with_size">Загрузить модель (~%d МБ)</string>
+    <string name="setup_downloading">Загрузка…</string>
+    <string name="setup_ready_title">Всё готово!</string>
+    <string name="setup_ready_subtitle">Выделите текст в любом приложении, затем нажмите «Writing Assistant» в контекстном меню, чтобы преобразовать его.</string>
+    <string name="setup_open_app">Открыть Writing Assistant</string>
+    <string name="setup_model_section">Модель ИИ (~%d МБ)</string>
+    <string name="setup_continue">Продолжить</string>
+    <string name="setup_downloaded_cd">Загружено</string>
+    <string name="setup_error_cd">Ошибка</string>
+    <string name="home_clear_text_cd">Очистить текст</string>
+    <string name="home_placeholder">Нажмите здесь и начните писать…</string>
+    <string name="home_download_model">Загрузить модель</string>
+    <string name="home_applied">Применено к текстовому полю</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Назад</string>
+    <string name="tools_back">Назад</string>
+    <string name="tools_copied">Скопировано в буфер обмена</string>
+    <string name="tools_your_text">Ваш текст</string>
+    <string name="tools_placeholder">Вставьте или введите текст для улучшения…</string>
+    <string name="tools_loading">Загрузка модели ИИ…</string>
+    <string name="tools_applying">Применяется %s…</string>
+    <string name="tools_result_label">Результат — нажмите для редактирования</string>
+    <string name="tools_retry">Повторить</string>
+    <string name="tools_copy">Копировать</string>
+    <string name="tools_replace">Заменить</string>
+    <string name="tools_cancel">Отмена</string>
+    <string name="tools_error">Что-то пошло не так. Пожалуйста, попробуйте ещё раз.</string>
+    <string name="sheet_model_title">Требуется модель ИИ</string>
+    <string name="sheet_model_subtitle">Загрузите модель ИИ (~%d МБ), чтобы использовать Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Загрузить (~%d МБ)</string>
+    <string name="sheet_model_ready">Модель ИИ готова — всё настроено!</string>
+    <string name="tools_input_too_long">Текст слишком длинный — обрезан до %d символов</string>
+    <plurals name="word_count">
+        <item quantity="one">%d слово</item>
+        <item quantity="few">%d слова</item>
+        <item quantity="many">%d слов</item>
+        <item quantity="other">%d слова</item>
+    </plurals>
+</resources>

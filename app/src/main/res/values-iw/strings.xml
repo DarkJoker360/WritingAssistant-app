@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">כתוב מחדש, הגה, סכם ועוד.\nמופעל על ידי בינה מלאכותית הפועלת כולה במכשיר שלך.\nפרטיות בתכנון.</string>
+    <string name="setup_get_started">התחל</string>
+    <string name="setup_models_title">הורד מודל בינה מלאכותית</string>
+    <string name="setup_models_subtitle">מודל זה פועל כולו במכשיר שלך.</string>
+    <string name="setup_download_btn_with_size">הורד מודל (~%d MB)</string>
+    <string name="setup_downloading">מוריד…</string>
+    <string name="setup_ready_title">הכל מוכן!</string>
+    <string name="setup_ready_subtitle">בחר טקסט בכל אפליקציה, ולאחר מכן הקש על \"Writing Assistant\" בתפריט ההקשר כדי לשנות אותו.</string>
+    <string name="setup_open_app">פתח את Writing Assistant</string>
+    <string name="setup_model_section">מודל בינה מלאכותית (~%d MB)</string>
+    <string name="setup_continue">המשך</string>
+    <string name="setup_downloaded_cd">הורד</string>
+    <string name="setup_error_cd">שגיאה</string>
+    <string name="home_clear_text_cd">נקה טקסט</string>
+    <string name="home_placeholder">הקש כאן והתחל לכתוב…</string>
+    <string name="home_download_model">הורד מודל</string>
+    <string name="home_applied">הוחל על תיבת הטקסט</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">חזור</string>
+    <string name="tools_back">חזור</string>
+    <string name="tools_copied">הועתק ללוח</string>
+    <string name="tools_your_text">הטקסט שלך</string>
+    <string name="tools_placeholder">הדבק או הקלד טקסט לשיפור…</string>
+    <string name="tools_loading">טוען מודל בינה מלאכותית…</string>
+    <string name="tools_applying">מחיל %s…</string>
+    <string name="tools_result_label">תוצאה — הקש לעריכה</string>
+    <string name="tools_retry">נסה שוב</string>
+    <string name="tools_copy">העתק</string>
+    <string name="tools_replace">החלף</string>
+    <string name="tools_cancel">בטל</string>
+    <string name="tools_error">משהו השתבש. אנא נסה שוב.</string>
+    <string name="sheet_model_title">נדרש מודל בינה מלאכותית</string>
+    <string name="sheet_model_subtitle">הורד את מודל הבינה המלאכותית (~%d MB) כדי להשתמש ב-Writing Assistant.</string>
+    <string name="sheet_model_download_btn">הורד (~%d MB)</string>
+    <string name="sheet_model_ready">מודל הבינה המלאכותית מוכן — הכל מוגדר!</string>
+    <string name="tools_input_too_long">הטקסט ארוך מדי — קוצר ל-%d תווים</string>
+    <plurals name="word_count">
+        <item quantity="one">%d מילה</item>
+        <item quantity="two">%d מילים</item>
+        <item quantity="many">%d מילים</item>
+        <item quantity="other">%d מילים</item>
+    </plurals>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Přepište, zkontrolujte, shrňte a více.\nPoháněno umělou inteligencí běžící zcela na vašem zařízení.\nSoukromí ze záměru.</string>
+    <string name="setup_get_started">Začít</string>
+    <string name="setup_models_title">Stáhnout model AI</string>
+    <string name="setup_models_subtitle">Tento model běží zcela na vašem zařízení.</string>
+    <string name="setup_download_btn_with_size">Stáhnout model (~%d MB)</string>
+    <string name="setup_downloading">Stahování…</string>
+    <string name="setup_ready_title">Vše je připraveno!</string>
+    <string name="setup_ready_subtitle">Vyberte text v libovolné aplikaci a poté klepnutím na „Writing Assistant" v kontextové nabídce ho transformujte.</string>
+    <string name="setup_open_app">Otevřít Writing Assistant</string>
+    <string name="setup_model_section">Model AI (~%d MB)</string>
+    <string name="setup_continue">Pokračovat</string>
+    <string name="setup_downloaded_cd">Staženo</string>
+    <string name="setup_error_cd">Chyba</string>
+    <string name="home_clear_text_cd">Vymazat text</string>
+    <string name="home_placeholder">Klepněte zde a začněte psát…</string>
+    <string name="home_download_model">Stáhnout model</string>
+    <string name="home_applied">Použito na textové pole</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Zpět</string>
+    <string name="tools_back">Zpět</string>
+    <string name="tools_copied">Zkopírováno do schránky</string>
+    <string name="tools_your_text">Váš text</string>
+    <string name="tools_placeholder">Vložte nebo napište text ke zlepšení…</string>
+    <string name="tools_loading">Načítání modelu AI…</string>
+    <string name="tools_applying">Použití %s…</string>
+    <string name="tools_result_label">Výsledek — klepnutím upravte</string>
+    <string name="tools_retry">Zkusit znovu</string>
+    <string name="tools_copy">Kopírovat</string>
+    <string name="tools_replace">Nahradit</string>
+    <string name="tools_cancel">Zrušit</string>
+    <string name="tools_error">Něco se pokazilo. Zkuste to prosím znovu.</string>
+    <string name="sheet_model_title">Vyžadován model AI</string>
+    <string name="sheet_model_subtitle">Stáhněte model AI (~%d MB) pro použití Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Stáhnout (~%d MB)</string>
+    <string name="sheet_model_ready">Model AI připraven — vše je nastaveno!</string>
+    <string name="tools_input_too_long">Text je příliš dlouhý — zkrácen na %d znaků</string>
+    <plurals name="word_count">
+        <item quantity="one">%d slovo</item>
+        <item quantity="few">%d slova</item>
+        <item quantity="many">%d slov</item>
+        <item quantity="other">%d slov</item>
+    </plurals>
+</resources>

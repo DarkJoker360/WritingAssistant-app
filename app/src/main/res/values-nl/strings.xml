@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Herschrijven, proeflezen, samenvatten en meer.\nAangedreven door AI die volledig op uw apparaat draait.\nPrivacy by design.</string>
+    <string name="setup_get_started">Aan de slag</string>
+    <string name="setup_models_title">AI-model downloaden</string>
+    <string name="setup_models_subtitle">Dit model draait volledig op uw apparaat.</string>
+    <string name="setup_download_btn_with_size">Model downloaden (~%d MB)</string>
+    <string name="setup_downloading">Downloaden…</string>
+    <string name="setup_ready_title">U bent helemaal klaar!</string>
+    <string name="setup_ready_subtitle">Selecteer tekst in een app en tik op \"Writing Assistant\" in het contextmenu om het te transformeren.</string>
+    <string name="setup_open_app">Writing Assistant openen</string>
+    <string name="setup_model_section">AI-model (~%d MB)</string>
+    <string name="setup_continue">Doorgaan</string>
+    <string name="setup_downloaded_cd">Gedownload</string>
+    <string name="setup_error_cd">Fout</string>
+    <string name="home_clear_text_cd">Tekst wissen</string>
+    <string name="home_placeholder">Tik hier en begin met schrijven…</string>
+    <string name="home_download_model">Model downloaden</string>
+    <string name="home_applied">Toegepast op tekstvak</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Terug</string>
+    <string name="tools_back">Terug</string>
+    <string name="tools_copied">Gekopieerd naar klembord</string>
+    <string name="tools_your_text">Uw tekst</string>
+    <string name="tools_placeholder">Plak of typ tekst om te verbeteren…</string>
+    <string name="tools_loading">AI-model laden…</string>
+    <string name="tools_applying">%s toepassen…</string>
+    <string name="tools_result_label">Resultaat — tik om te bewerken</string>
+    <string name="tools_retry">Opnieuw proberen</string>
+    <string name="tools_copy">Kopiëren</string>
+    <string name="tools_replace">Vervangen</string>
+    <string name="tools_cancel">Annuleren</string>
+    <string name="tools_error">Er is iets misgegaan. Probeer het opnieuw.</string>
+    <string name="sheet_model_title">AI-model vereist</string>
+    <string name="sheet_model_subtitle">Download het AI-model (~%d MB) om Writing Assistant te gebruiken.</string>
+    <string name="sheet_model_download_btn">Downloaden (~%d MB)</string>
+    <string name="sheet_model_ready">AI-model klaar — u bent helemaal ingesteld!</string>
+    <string name="tools_input_too_long">Tekst te lang — ingekort tot %d tekens</string>
+    <plurals name="word_count">
+        <item quantity="one">%d woord</item>
+        <item quantity="other">%d woorden</item>
+    </plurals>
+</resources>

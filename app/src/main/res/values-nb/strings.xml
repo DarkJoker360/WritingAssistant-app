@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Omskriv, korrekturles, oppsummer og mer.\nDrevet av kunstig intelligens som kjører helt på enheten din.\nPersonvern by design.</string>
+    <string name="setup_get_started">Kom i gang</string>
+    <string name="setup_models_title">Last ned KI-modell</string>
+    <string name="setup_models_subtitle">Denne modellen kjører helt på enheten din.</string>
+    <string name="setup_download_btn_with_size">Last ned modell (~%d MB)</string>
+    <string name="setup_downloading">Laster ned…</string>
+    <string name="setup_ready_title">Du er klar!</string>
+    <string name="setup_ready_subtitle">Velg tekst i en app, og trykk deretter på \"Writing Assistant\" i kontekstmenyen for å transformere den.</string>
+    <string name="setup_open_app">Åpne Writing Assistant</string>
+    <string name="setup_model_section">KI-modell (~%d MB)</string>
+    <string name="setup_continue">Fortsett</string>
+    <string name="setup_downloaded_cd">Lastet ned</string>
+    <string name="setup_error_cd">Feil</string>
+    <string name="home_clear_text_cd">Tøm tekst</string>
+    <string name="home_placeholder">Trykk her og begynn å skrive…</string>
+    <string name="home_download_model">Last ned modell</string>
+    <string name="home_applied">Brukt på tekstboksen</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Tilbake</string>
+    <string name="tools_back">Tilbake</string>
+    <string name="tools_copied">Kopiert til utklippstavlen</string>
+    <string name="tools_your_text">Din tekst</string>
+    <string name="tools_placeholder">Lim inn eller skriv inn tekst for å forbedre…</string>
+    <string name="tools_loading">Laster KI-modell…</string>
+    <string name="tools_applying">Bruker %s…</string>
+    <string name="tools_result_label">Resultat — trykk for å redigere</string>
+    <string name="tools_retry">Prøv igjen</string>
+    <string name="tools_copy">Kopier</string>
+    <string name="tools_replace">Erstatt</string>
+    <string name="tools_cancel">Avbryt</string>
+    <string name="tools_error">Noe gikk galt. Prøv igjen.</string>
+    <string name="sheet_model_title">KI-modell påkrevd</string>
+    <string name="sheet_model_subtitle">Last ned KI-modellen (~%d MB) for å bruke Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Last ned (~%d MB)</string>
+    <string name="sheet_model_ready">KI-modell klar — du er klar til bruk!</string>
+    <string name="tools_input_too_long">Teksten er for lang — trimmet til %d tegn</string>
+    <plurals name="word_count">
+        <item quantity="one">%d ord</item>
+        <item quantity="other">%d ord</item>
+    </plurals>
+</resources>

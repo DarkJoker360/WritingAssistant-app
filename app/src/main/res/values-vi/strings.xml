@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Viết lại, hiệu đính, tóm tắt và nhiều hơn nữa.\nĐược hỗ trợ bởi AI chạy hoàn toàn trên thiết bị của bạn.\nBảo mật theo thiết kế.</string>
+    <string name="setup_get_started">Bắt đầu</string>
+    <string name="setup_models_title">Tải xuống mô hình AI</string>
+    <string name="setup_models_subtitle">Mô hình này chạy hoàn toàn trên thiết bị của bạn.</string>
+    <string name="setup_download_btn_with_size">Tải xuống mô hình (~%d MB)</string>
+    <string name="setup_downloading">Đang tải xuống…</string>
+    <string name="setup_ready_title">Bạn đã sẵn sàng!</string>
+    <string name="setup_ready_subtitle">Chọn văn bản trong bất kỳ ứng dụng nào, sau đó nhấn \"Writing Assistant\" trong menu ngữ cảnh để chuyển đổi.</string>
+    <string name="setup_open_app">Mở Writing Assistant</string>
+    <string name="setup_model_section">Mô hình AI (~%d MB)</string>
+    <string name="setup_continue">Tiếp tục</string>
+    <string name="setup_downloaded_cd">Đã tải xuống</string>
+    <string name="setup_error_cd">Lỗi</string>
+    <string name="home_clear_text_cd">Xóa văn bản</string>
+    <string name="home_placeholder">Nhấn vào đây và bắt đầu viết…</string>
+    <string name="home_download_model">Tải xuống mô hình</string>
+    <string name="home_applied">Đã áp dụng vào hộp văn bản</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Quay lại</string>
+    <string name="tools_back">Quay lại</string>
+    <string name="tools_copied">Đã sao chép vào clipboard</string>
+    <string name="tools_your_text">Văn bản của bạn</string>
+    <string name="tools_placeholder">Dán hoặc nhập văn bản cần cải thiện…</string>
+    <string name="tools_loading">Đang tải mô hình AI…</string>
+    <string name="tools_applying">Đang áp dụng %s…</string>
+    <string name="tools_result_label">Kết quả — nhấn để chỉnh sửa</string>
+    <string name="tools_retry">Thử lại</string>
+    <string name="tools_copy">Sao chép</string>
+    <string name="tools_replace">Thay thế</string>
+    <string name="tools_cancel">Hủy</string>
+    <string name="tools_error">Đã xảy ra lỗi. Vui lòng thử lại.</string>
+    <string name="sheet_model_title">Yêu cầu mô hình AI</string>
+    <string name="sheet_model_subtitle">Tải xuống mô hình AI (~%d MB) để sử dụng Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Tải xuống (~%d MB)</string>
+    <string name="sheet_model_ready">Mô hình AI sẵn sàng — tất cả đã được thiết lập!</string>
+    <string name="tools_input_too_long">Văn bản quá dài — đã cắt bớt xuống %d ký tự</string>
+    <plurals name="word_count">
+        <item quantity="other">%d từ</item>
+    </plurals>
+</resources>

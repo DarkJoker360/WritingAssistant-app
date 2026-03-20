@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Írja át, ellenőrizze, foglalja össze és még sok más.\nAz eszközén teljesen helyben futó mesterséges intelligencia hajtja.\nAdatvédelem tervezés szerint.</string>
+    <string name="setup_get_started">Kezdés</string>
+    <string name="setup_models_title">MI-modell letöltése</string>
+    <string name="setup_models_subtitle">Ez a modell teljesen az Ön eszközén fut.</string>
+    <string name="setup_download_btn_with_size">Modell letöltése (~%d MB)</string>
+    <string name="setup_downloading">Letöltés…</string>
+    <string name="setup_ready_title">Minden készen áll!</string>
+    <string name="setup_ready_subtitle">Jelöljön ki szöveget bármely alkalmazásban, majd koppintson a \"Writing Assistant\" elemre a helyi menüben az átalakításhoz.</string>
+    <string name="setup_open_app">Writing Assistant megnyitása</string>
+    <string name="setup_model_section">MI-modell (~%d MB)</string>
+    <string name="setup_continue">Folytatás</string>
+    <string name="setup_downloaded_cd">Letöltve</string>
+    <string name="setup_error_cd">Hiba</string>
+    <string name="home_clear_text_cd">Szöveg törlése</string>
+    <string name="home_placeholder">Koppintson ide és kezdjen írni…</string>
+    <string name="home_download_model">Modell letöltése</string>
+    <string name="home_applied">Alkalmazva a szövegmezőre</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Vissza</string>
+    <string name="tools_back">Vissza</string>
+    <string name="tools_copied">Vágólapra másolva</string>
+    <string name="tools_your_text">Az Ön szövege</string>
+    <string name="tools_placeholder">Illesszen be vagy írjon szöveget a javításhoz…</string>
+    <string name="tools_loading">MI-modell betöltése…</string>
+    <string name="tools_applying">%s alkalmazása…</string>
+    <string name="tools_result_label">Eredmény — koppintson a szerkesztéshez</string>
+    <string name="tools_retry">Újra</string>
+    <string name="tools_copy">Másolás</string>
+    <string name="tools_replace">Csere</string>
+    <string name="tools_cancel">Mégse</string>
+    <string name="tools_error">Valami hiba történt. Kérjük, próbálja újra.</string>
+    <string name="sheet_model_title">MI-modell szükséges</string>
+    <string name="sheet_model_subtitle">Töltse le a MI-modellt (~%d MB) a Writing Assistant használatához.</string>
+    <string name="sheet_model_download_btn">Letöltés (~%d MB)</string>
+    <string name="sheet_model_ready">MI-modell kész — minden be van állítva!</string>
+    <string name="tools_input_too_long">A szöveg túl hosszú — %d karakterre vágva</string>
+    <plurals name="word_count">
+        <item quantity="one">%d szó</item>
+        <item quantity="other">%d szó</item>
+    </plurals>
+</resources>

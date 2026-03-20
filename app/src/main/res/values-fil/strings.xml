@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Isulat muli, i-proofread, ibuod, at marami pa.\nPinapatakbo ng AI na tumatakbo nang buo sa iyong device.\nPrivacy sa pamamagitan ng disenyo.</string>
+    <string name="setup_get_started">Magsimula</string>
+    <string name="setup_models_title">I-download ang AI Model</string>
+    <string name="setup_models_subtitle">Ang modelong ito ay tumatakbo nang buo sa iyong device.</string>
+    <string name="setup_download_btn_with_size">I-download ang Model (~%d MB)</string>
+    <string name="setup_downloading">Nagda-download…</string>
+    <string name="setup_ready_title">Handa Ka Na!</string>
+    <string name="setup_ready_subtitle">Pumili ng teksto sa anumang app, pagkatapos ay i-tap ang \"Writing Assistant\" sa context menu para i-transform ito.</string>
+    <string name="setup_open_app">Buksan ang Writing Assistant</string>
+    <string name="setup_model_section">AI Model (~%d MB)</string>
+    <string name="setup_continue">Magpatuloy</string>
+    <string name="setup_downloaded_cd">Na-download na</string>
+    <string name="setup_error_cd">Error</string>
+    <string name="home_clear_text_cd">I-clear ang teksto</string>
+    <string name="home_placeholder">I-tap dito at simulan ang pagsulat…</string>
+    <string name="home_download_model">I-download ang model</string>
+    <string name="home_applied">Inilapat sa text box</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Bumalik</string>
+    <string name="tools_back">Bumalik</string>
+    <string name="tools_copied">Nakopya sa clipboard</string>
+    <string name="tools_your_text">Ang iyong teksto</string>
+    <string name="tools_placeholder">I-paste o mag-type ng teksto para mapabuti…</string>
+    <string name="tools_loading">Naglo-load ng AI model…</string>
+    <string name="tools_applying">Inilalapat ang %s…</string>
+    <string name="tools_result_label">Resulta — i-tap para i-edit</string>
+    <string name="tools_retry">Subukan Muli</string>
+    <string name="tools_copy">Kopyahin</string>
+    <string name="tools_replace">Palitan</string>
+    <string name="tools_cancel">Kanselahin</string>
+    <string name="tools_error">May naganap na error. Pakisubukan muli.</string>
+    <string name="sheet_model_title">Kailangan ang AI Model</string>
+    <string name="sheet_model_subtitle">I-download ang AI model (~%d MB) para gamitin ang Writing Assistant.</string>
+    <string name="sheet_model_download_btn">I-download (~%d MB)</string>
+    <string name="sheet_model_ready">Handa na ang AI model — naka-set up na ang lahat!</string>
+    <string name="tools_input_too_long">Masyadong mahaba ang teksto — pinaikli sa %d na karakter</string>
+    <plurals name="word_count">
+        <item quantity="one">%d salita</item>
+        <item quantity="other">%d na salita</item>
+    </plurals>
+</resources>

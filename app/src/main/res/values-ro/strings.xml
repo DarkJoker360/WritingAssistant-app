@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Rescrie, corectează, rezumă și multe altele.\nAlimentat de inteligență artificială care rulează în întregime pe dispozitivul tău.\nConfidențialitate prin design.</string>
+    <string name="setup_get_started">Începe</string>
+    <string name="setup_models_title">Descarcă modelul AI</string>
+    <string name="setup_models_subtitle">Acest model rulează în întregime pe dispozitivul tău.</string>
+    <string name="setup_download_btn_with_size">Descarcă modelul (~%d MB)</string>
+    <string name="setup_downloading">Se descarcă…</string>
+    <string name="setup_ready_title">Ești pregătit!</string>
+    <string name="setup_ready_subtitle">Selectează text în orice aplicație, apoi atinge „Writing Assistant" din meniul contextual pentru a-l transforma.</string>
+    <string name="setup_open_app">Deschide Writing Assistant</string>
+    <string name="setup_model_section">Model AI (~%d MB)</string>
+    <string name="setup_continue">Continuă</string>
+    <string name="setup_downloaded_cd">Descărcat</string>
+    <string name="setup_error_cd">Eroare</string>
+    <string name="home_clear_text_cd">Șterge textul</string>
+    <string name="home_placeholder">Atinge aici și începe să scrii…</string>
+    <string name="home_download_model">Descarcă modelul</string>
+    <string name="home_applied">Aplicat în câmpul de text</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Înapoi</string>
+    <string name="tools_back">Înapoi</string>
+    <string name="tools_copied">Copiat în clipboard</string>
+    <string name="tools_your_text">Textul tău</string>
+    <string name="tools_placeholder">Lipește sau scrie text de îmbunătățit…</string>
+    <string name="tools_loading">Se încarcă modelul AI…</string>
+    <string name="tools_applying">Se aplică %s…</string>
+    <string name="tools_result_label">Rezultat — atinge pentru a edita</string>
+    <string name="tools_retry">Reîncearcă</string>
+    <string name="tools_copy">Copiază</string>
+    <string name="tools_replace">Înlocuiește</string>
+    <string name="tools_cancel">Anulează</string>
+    <string name="tools_error">Ceva a mers prost. Te rugăm să încerci din nou.</string>
+    <string name="sheet_model_title">Model AI necesar</string>
+    <string name="sheet_model_subtitle">Descarcă modelul AI (~%d MB) pentru a folosi Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Descarcă (~%d MB)</string>
+    <string name="sheet_model_ready">Modelul AI este gata — totul este configurat!</string>
+    <string name="tools_input_too_long">Text prea lung — trunchiat la %d caractere</string>
+    <plurals name="word_count">
+        <item quantity="one">%d cuvânt</item>
+        <item quantity="few">%d cuvinte</item>
+        <item quantity="other">%d de cuvinte</item>
+    </plurals>
+</resources>

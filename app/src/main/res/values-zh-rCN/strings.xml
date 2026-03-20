@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">改写、校对、摘要等更多功能。\n完全在您的设备上运行的 AI 驱动。\n隐私优先设计。</string>
+    <string name="setup_get_started">开始使用</string>
+    <string name="setup_models_title">下载 AI 模型</string>
+    <string name="setup_models_subtitle">此模型完全在您的设备上运行。</string>
+    <string name="setup_download_btn_with_size">下载模型（约 %d MB）</string>
+    <string name="setup_downloading">下载中…</string>
+    <string name="setup_ready_title">一切就绪！</string>
+    <string name="setup_ready_subtitle">在任意应用中选择文本，然后点击上下文菜单中的"Writing Assistant"进行转换。</string>
+    <string name="setup_open_app">打开 Writing Assistant</string>
+    <string name="setup_model_section">AI 模型（约 %d MB）</string>
+    <string name="setup_continue">继续</string>
+    <string name="setup_downloaded_cd">已下载</string>
+    <string name="setup_error_cd">错误</string>
+    <string name="home_clear_text_cd">清除文本</string>
+    <string name="home_placeholder">点击此处开始写作…</string>
+    <string name="home_download_model">下载模型</string>
+    <string name="home_applied">已应用至文本框</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">返回</string>
+    <string name="tools_back">返回</string>
+    <string name="tools_copied">已复制到剪贴板</string>
+    <string name="tools_your_text">您的文本</string>
+    <string name="tools_placeholder">粘贴或输入要改进的文本…</string>
+    <string name="tools_loading">正在加载 AI 模型…</string>
+    <string name="tools_applying">正在应用 %s…</string>
+    <string name="tools_result_label">结果 — 点击以编辑</string>
+    <string name="tools_retry">重试</string>
+    <string name="tools_copy">复制</string>
+    <string name="tools_replace">替换</string>
+    <string name="tools_cancel">取消</string>
+    <string name="tools_error">出现了问题，请重试。</string>
+    <string name="sheet_model_title">需要 AI 模型</string>
+    <string name="sheet_model_subtitle">下载 AI 模型（约 %d MB）以使用 Writing Assistant。</string>
+    <string name="sheet_model_download_btn">下载（约 %d MB）</string>
+    <string name="sheet_model_ready">AI 模型已就绪 — 一切就绪！</string>
+    <string name="tools_input_too_long">文本过长 — 已截短至 %d 个字符</string>
+    <plurals name="word_count">
+        <item quantity="other">%d 个词</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.WritingAssistant" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="Theme.WritingAssistant.ProcessText" parent="Theme.WritingAssistant">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

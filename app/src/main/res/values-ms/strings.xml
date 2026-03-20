@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Tulis semula, semak, ringkaskan dan banyak lagi.\nDidukung oleh AI yang berjalan sepenuhnya pada peranti anda.\nPrivasi mengikut reka bentuk.</string>
+    <string name="setup_get_started">Mulakan</string>
+    <string name="setup_models_title">Muat Turun Model AI</string>
+    <string name="setup_models_subtitle">Model ini berjalan sepenuhnya pada peranti anda.</string>
+    <string name="setup_download_btn_with_size">Muat Turun Model (~%d MB)</string>
+    <string name="setup_downloading">Memuat turun…</string>
+    <string name="setup_ready_title">Anda Sedia!</string>
+    <string name="setup_ready_subtitle">Pilih teks dalam mana-mana apl, kemudian ketuk \"Writing Assistant\" dalam menu konteks untuk mengubahnya.</string>
+    <string name="setup_open_app">Buka Writing Assistant</string>
+    <string name="setup_model_section">Model AI (~%d MB)</string>
+    <string name="setup_continue">Teruskan</string>
+    <string name="setup_downloaded_cd">Dimuat turun</string>
+    <string name="setup_error_cd">Ralat</string>
+    <string name="home_clear_text_cd">Padam teks</string>
+    <string name="home_placeholder">Ketuk di sini dan mula menulis…</string>
+    <string name="home_download_model">Muat turun model</string>
+    <string name="home_applied">Digunakan pada kotak teks</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Kembali</string>
+    <string name="tools_back">Kembali</string>
+    <string name="tools_copied">Disalin ke papan klip</string>
+    <string name="tools_your_text">Teks anda</string>
+    <string name="tools_placeholder">Tampal atau taip teks untuk ditingkatkan…</string>
+    <string name="tools_loading">Memuatkan model AI…</string>
+    <string name="tools_applying">Menggunakan %s…</string>
+    <string name="tools_result_label">Hasil — ketuk untuk mengedit</string>
+    <string name="tools_retry">Cuba Lagi</string>
+    <string name="tools_copy">Salin</string>
+    <string name="tools_replace">Ganti</string>
+    <string name="tools_cancel">Batal</string>
+    <string name="tools_error">Sesuatu telah berlaku. Sila cuba lagi.</string>
+    <string name="sheet_model_title">Model AI Diperlukan</string>
+    <string name="sheet_model_subtitle">Muat turun model AI (~%d MB) untuk menggunakan Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Muat Turun (~%d MB)</string>
+    <string name="sheet_model_ready">Model AI sedia — semua telah ditetapkan!</string>
+    <string name="tools_input_too_long">Teks terlalu panjang — dipangkas kepada %d aksara</string>
+    <plurals name="word_count">
+        <item quantity="other">%d patah perkataan</item>
+    </plurals>
+</resources>

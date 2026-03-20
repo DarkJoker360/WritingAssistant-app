@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Rewrite, proofread, summarize, and more.\nPowered by AI running entirely on your device.\nPrivate by design.</string>
+    <string name="setup_get_started">Get Started</string>
+    <string name="setup_models_title">Download AI Model</string>
+    <string name="setup_models_subtitle">This model runs entirely on your device.</string>
+    <string name="setup_download_btn_with_size">Download Model (~%d MB)</string>
+    <string name="setup_downloading">Downloading…</string>
+    <string name="setup_ready_title">You are All Set!</string>
+    <string name="setup_ready_subtitle">Select text in any app, then tap \"Writing Assistant\" in the context menu to transform it.</string>
+    <string name="setup_open_app">Open Writing Assistant</string>
+    <string name="setup_model_section">AI Model (~%d MB)</string>
+    <string name="setup_continue">Continue</string>
+    <string name="setup_downloaded_cd">Downloaded</string>
+    <string name="setup_error_cd">Error</string>
+    <string name="home_clear_text_cd">Clear text</string>
+    <string name="home_placeholder">Tap here and start writing…</string>
+    <string name="home_download_model">Download model</string>
+    <string name="home_applied">Applied to text box</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Back</string>
+    <string name="tools_back">Back</string>
+    <string name="tools_copied">Copied to clipboard</string>
+    <string name="tools_your_text">Your text</string>
+    <string name="tools_placeholder">Paste or type text to improve…</string>
+    <string name="tools_loading">Loading AI model…</string>
+    <string name="tools_applying">Applying %s…</string>
+    <string name="tools_result_label">Result — tap to edit</string>
+    <string name="tools_retry">Retry</string>
+    <string name="tools_copy">Copy</string>
+    <string name="tools_replace">Replace</string>
+    <string name="tools_cancel">Cancel</string>
+    <string name="tools_error">Something went wrong. Please try again.</string>
+    <string name="sheet_model_title">AI Model Required</string>
+    <string name="sheet_model_subtitle">Download the AI model (~%d MB) to use Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Download (~%d MB)</string>
+    <string name="sheet_model_ready">AI model ready — you are all set!</string>
+    <string name="tools_input_too_long">Text too long — trimmed to %d characters</string>
+    <plurals name="word_count">
+        <item quantity="one">%d word</item>
+        <item quantity="other">%d words</item>
+    </plurals>
+</resources>

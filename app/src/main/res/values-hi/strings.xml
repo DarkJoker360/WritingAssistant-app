@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">फिर से लिखें, प्रूफरीड करें, सारांश बनाएं और बहुत कुछ।\nआपके डिवाइस पर पूरी तरह चलने वाले AI द्वारा संचालित।\nडिज़ाइन द्वारा निजी।</string>
+    <string name="setup_get_started">शुरू करें</string>
+    <string name="setup_models_title">AI मॉडल डाउनलोड करें</string>
+    <string name="setup_models_subtitle">यह मॉडल पूरी तरह आपके डिवाइस पर चलता है।</string>
+    <string name="setup_download_btn_with_size">मॉडल डाउनलोड करें (~%d MB)</string>
+    <string name="setup_downloading">डाउनलोड हो रहा है…</string>
+    <string name="setup_ready_title">आप पूरी तरह तैयार हैं!</string>
+    <string name="setup_ready_subtitle">किसी भी ऐप में टेक्स्ट चुनें, फिर उसे बदलने के लिए संदर्भ मेनू में \"Writing Assistant\" पर टैप करें।</string>
+    <string name="setup_open_app">Writing Assistant खोलें</string>
+    <string name="setup_model_section">AI मॉडल (~%d MB)</string>
+    <string name="setup_continue">जारी रखें</string>
+    <string name="setup_downloaded_cd">डाउनलोड हो गया</string>
+    <string name="setup_error_cd">त्रुटि</string>
+    <string name="home_clear_text_cd">टेक्स्ट साफ़ करें</string>
+    <string name="home_placeholder">यहाँ टैप करें और लिखना शुरू करें…</string>
+    <string name="home_download_model">मॉडल डाउनलोड करें</string>
+    <string name="home_applied">टेक्स्ट बॉक्स पर लागू किया गया</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">वापस</string>
+    <string name="tools_back">वापस</string>
+    <string name="tools_copied">क्लिपबोर्ड पर कॉपी किया गया</string>
+    <string name="tools_your_text">आपका टेक्स्ट</string>
+    <string name="tools_placeholder">सुधारने के लिए टेक्स्ट पेस्ट करें या टाइप करें…</string>
+    <string name="tools_loading">AI मॉडल लोड हो रहा है…</string>
+    <string name="tools_applying">%s लागू हो रहा है…</string>
+    <string name="tools_result_label">परिणाम — संपादित करने के लिए टैप करें</string>
+    <string name="tools_retry">पुनः प्रयास करें</string>
+    <string name="tools_copy">कॉपी करें</string>
+    <string name="tools_replace">बदलें</string>
+    <string name="tools_cancel">रद्द करें</string>
+    <string name="tools_error">कुछ गलत हो गया। कृपया पुनः प्रयास करें।</string>
+    <string name="sheet_model_title">AI मॉडल आवश्यक है</string>
+    <string name="sheet_model_subtitle">Writing Assistant उपयोग करने के लिए AI मॉडल (~%d MB) डाउनलोड करें।</string>
+    <string name="sheet_model_download_btn">डाउनलोड करें (~%d MB)</string>
+    <string name="sheet_model_ready">AI मॉडल तैयार है — सब कुछ सेट है!</string>
+    <string name="tools_input_too_long">टेक्स्ट बहुत लंबा है — %d वर्णों तक छोटा किया गया</string>
+    <plurals name="word_count">
+        <item quantity="one">%d शब्द</item>
+        <item quantity="other">%d शब्द</item>
+    </plurals>
+</resources>

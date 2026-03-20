@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Kirjoita uudelleen, oikolue, tiivistä ja paljon muuta.\nTekoäly toimii kokonaan laitteellasi.\nYksityisyys suunnittelusta lähtien.</string>
+    <string name="setup_get_started">Aloita</string>
+    <string name="setup_models_title">Lataa tekoälymalli</string>
+    <string name="setup_models_subtitle">Tämä malli toimii kokonaan laitteellasi.</string>
+    <string name="setup_download_btn_with_size">Lataa malli (~%d Mt)</string>
+    <string name="setup_downloading">Ladataan…</string>
+    <string name="setup_ready_title">Kaikki on valmista!</string>
+    <string name="setup_ready_subtitle">Valitse teksti missä tahansa sovelluksessa ja napauta sitten \"Writing Assistant\" pikavalikossa muuntaaksesi sen.</string>
+    <string name="setup_open_app">Avaa Writing Assistant</string>
+    <string name="setup_model_section">Tekoälymalli (~%d Mt)</string>
+    <string name="setup_continue">Jatka</string>
+    <string name="setup_downloaded_cd">Ladattu</string>
+    <string name="setup_error_cd">Virhe</string>
+    <string name="home_clear_text_cd">Tyhjennä teksti</string>
+    <string name="home_placeholder">Napauta tähän ja ala kirjoittaa…</string>
+    <string name="home_download_model">Lataa malli</string>
+    <string name="home_applied">Sovellettu tekstikenttään</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Takaisin</string>
+    <string name="tools_back">Takaisin</string>
+    <string name="tools_copied">Kopioitu leikepöydälle</string>
+    <string name="tools_your_text">Tekstisi</string>
+    <string name="tools_placeholder">Liitä tai kirjoita teksti parannettavaksi…</string>
+    <string name="tools_loading">Ladataan tekoälymallia…</string>
+    <string name="tools_applying">Käytetään %s…</string>
+    <string name="tools_result_label">Tulos — napauta muokataksesi</string>
+    <string name="tools_retry">Yritä uudelleen</string>
+    <string name="tools_copy">Kopioi</string>
+    <string name="tools_replace">Korvaa</string>
+    <string name="tools_cancel">Peruuta</string>
+    <string name="tools_error">Jotain meni pieleen. Yritä uudelleen.</string>
+    <string name="sheet_model_title">Tekoälymalli vaaditaan</string>
+    <string name="sheet_model_subtitle">Lataa tekoälymalli (~%d Mt) käyttääksesi Writing Assistantia.</string>
+    <string name="sheet_model_download_btn">Lataa (~%d Mt)</string>
+    <string name="sheet_model_ready">Tekoälymalli valmis — kaikki on asetettu!</string>
+    <string name="tools_input_too_long">Teksti liian pitkä — lyhennetty %d merkkiin</string>
+    <plurals name="word_count">
+        <item quantity="one">%d sana</item>
+        <item quantity="other">%d sanaa</item>
+    </plurals>
+</resources>

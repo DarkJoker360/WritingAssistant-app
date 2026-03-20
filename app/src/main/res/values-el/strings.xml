@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Ξαναγράψτε, διορθώστε, συνοψίστε και άλλα.\nΤροφοδοτείται από AI που εκτελείται εξ ολοκλήρου στη συσκευή σας.\nΑπόρρητο εξ ορισμού.</string>
+    <string name="setup_get_started">Ξεκινήστε</string>
+    <string name="setup_models_title">Λήψη μοντέλου AI</string>
+    <string name="setup_models_subtitle">Αυτό το μοντέλο εκτελείται εξ ολοκλήρου στη συσκευή σας.</string>
+    <string name="setup_download_btn_with_size">Λήψη μοντέλου (~%d MB)</string>
+    <string name="setup_downloading">Λήψη…</string>
+    <string name="setup_ready_title">Είστε έτοιμοι!</string>
+    <string name="setup_ready_subtitle">Επιλέξτε κείμενο σε οποιαδήποτε εφαρμογή και πατήστε \"Writing Assistant\" στο μενού περιβάλλοντος για να το μετασχηματίσετε.</string>
+    <string name="setup_open_app">Άνοιγμα Writing Assistant</string>
+    <string name="setup_model_section">Μοντέλο AI (~%d MB)</string>
+    <string name="setup_continue">Συνέχεια</string>
+    <string name="setup_downloaded_cd">Λήφθηκε</string>
+    <string name="setup_error_cd">Σφάλμα</string>
+    <string name="home_clear_text_cd">Εκκαθάριση κειμένου</string>
+    <string name="home_placeholder">Πατήστε εδώ και αρχίστε να γράφετε…</string>
+    <string name="home_download_model">Λήψη μοντέλου</string>
+    <string name="home_applied">Εφαρμόστηκε στο πεδίο κειμένου</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Πίσω</string>
+    <string name="tools_back">Πίσω</string>
+    <string name="tools_copied">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="tools_your_text">Το κείμενό σας</string>
+    <string name="tools_placeholder">Επικολλήστε ή πληκτρολογήστε κείμενο για βελτίωση…</string>
+    <string name="tools_loading">Φόρτωση μοντέλου AI…</string>
+    <string name="tools_applying">Εφαρμογή %s…</string>
+    <string name="tools_result_label">Αποτέλεσμα — πατήστε για επεξεργασία</string>
+    <string name="tools_retry">Επανάληψη</string>
+    <string name="tools_copy">Αντιγραφή</string>
+    <string name="tools_replace">Αντικατάσταση</string>
+    <string name="tools_cancel">Ακύρωση</string>
+    <string name="tools_error">Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="sheet_model_title">Απαιτείται μοντέλο AI</string>
+    <string name="sheet_model_subtitle">Κατεβάστε το μοντέλο AI (~%d MB) για να χρησιμοποιήσετε το Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Λήψη (~%d MB)</string>
+    <string name="sheet_model_ready">Το μοντέλο AI είναι έτοιμο — είστε έτοιμοι!</string>
+    <string name="tools_input_too_long">Το κείμενο είναι πολύ μεγάλο — περικόπηκε σε %d χαρακτήρες</string>
+    <plurals name="word_count">
+        <item quantity="one">%d λέξη</item>
+        <item quantity="other">%d λέξεις</item>
+    </plurals>
+</resources>

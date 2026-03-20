@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Writing Assistant</string>
+    <string name="setup_welcome_title">Writing Assistant</string>
+    <string name="setup_welcome_subtitle">Skriv om, korrekturläs, sammanfatta och mer.\nDrivs av AI som körs helt på din enhet.\nPrivacy by design.</string>
+    <string name="setup_get_started">Kom igång</string>
+    <string name="setup_models_title">Ladda ner AI-modell</string>
+    <string name="setup_models_subtitle">Den här modellen körs helt på din enhet.</string>
+    <string name="setup_download_btn_with_size">Ladda ner modell (~%d MB)</string>
+    <string name="setup_downloading">Laddar ner…</string>
+    <string name="setup_ready_title">Du är redo!</string>
+    <string name="setup_ready_subtitle">Markera text i valfri app och tryck sedan på \"Writing Assistant\" i snabbmenyn för att omvandla den.</string>
+    <string name="setup_open_app">Öppna Writing Assistant</string>
+    <string name="setup_model_section">AI-modell (~%d MB)</string>
+    <string name="setup_continue">Fortsätt</string>
+    <string name="setup_downloaded_cd">Nedladdad</string>
+    <string name="setup_error_cd">Fel</string>
+    <string name="home_clear_text_cd">Rensa text</string>
+    <string name="home_placeholder">Tryck här och börja skriva…</string>
+    <string name="home_download_model">Ladda ner modell</string>
+    <string name="home_applied">Tillämpad på textrutan</string>
+    <string name="home_writing_btn">Writing Assistant</string>
+    <string name="tools_title">Writing Assistant</string>
+    <string name="tools_back_cd">Tillbaka</string>
+    <string name="tools_back">Tillbaka</string>
+    <string name="tools_copied">Kopierad till urklipp</string>
+    <string name="tools_your_text">Din text</string>
+    <string name="tools_placeholder">Klistra in eller skriv text att förbättra…</string>
+    <string name="tools_loading">Laddar AI-modell…</string>
+    <string name="tools_applying">Tillämpar %s…</string>
+    <string name="tools_result_label">Resultat — tryck för att redigera</string>
+    <string name="tools_retry">Försök igen</string>
+    <string name="tools_copy">Kopiera</string>
+    <string name="tools_replace">Ersätt</string>
+    <string name="tools_cancel">Avbryt</string>
+    <string name="tools_error">Något gick fel. Försök igen.</string>
+    <string name="sheet_model_title">AI-modell krävs</string>
+    <string name="sheet_model_subtitle">Ladda ner AI-modellen (~%d MB) för att använda Writing Assistant.</string>
+    <string name="sheet_model_download_btn">Ladda ner (~%d MB)</string>
+    <string name="sheet_model_ready">AI-modell redo — du är helt inställd!</string>
+    <string name="tools_input_too_long">Texten är för lång — trimmad till %d tecken</string>
+    <plurals name="word_count">
+        <item quantity="one">%d ord</item>
+        <item quantity="other">%d ord</item>
+    </plurals>
+</resources>
