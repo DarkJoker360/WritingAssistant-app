@@ -172,6 +172,11 @@ fun WritingToolsScreen(
         screenState = ScreenState.Processing(tool)
         jobHolder.job = scope.launch {
             try {
+                if (writingEngine.state.value is EngineState.Error ||
+                    writingEngine.state.value is EngineState.NotInitialized
+                ) {
+                    writingEngine.initialize()
+                }
                 writingEngine.state.first { it is EngineState.Ready || it is EngineState.Error }
                 val state = writingEngine.state.value
                 if (state is EngineState.Error) {
@@ -254,7 +259,7 @@ fun WritingToolsScreen(
                     onChangeTool = { runTool(it) }
                 )
                 is ScreenState.Error -> ErrorContent(
-                    message = stringResource(R.string.tools_error),
+                    message = state.message.ifBlank { stringResource(R.string.tools_error) },
                     onRetry = { runTool(state.tool) },
                     onBack = { screenState = ScreenState.ToolGrid }
                 )

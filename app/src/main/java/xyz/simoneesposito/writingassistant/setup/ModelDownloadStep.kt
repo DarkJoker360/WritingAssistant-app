@@ -131,10 +131,10 @@ fun ModelDownloadStep(
                 Text(stringResource(R.string.setup_continue))
             }
         } else if (downloadState.isDownloading) {
-            Button(
-                onClick = { },
-                enabled = false,
-                modifier = Modifier.fillMaxWidth()
+            Row(
+                modifier = Modifier.fillMaxWidth().padding(vertical = 12.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.Center
             ) {
                 CircularProgressIndicator(
                     modifier = Modifier.size(20.dp),
