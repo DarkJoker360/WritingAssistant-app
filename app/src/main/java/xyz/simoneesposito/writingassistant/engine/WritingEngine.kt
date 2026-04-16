@@ -37,6 +37,8 @@ class WritingEngine(
     private var engine: Engine? = null
     private val _state = MutableStateFlow<EngineState>(EngineState.NotInitialized)
     val state: StateFlow<EngineState> = _state.asStateFlow()
+    private val sessionLock = Any()
+    @Volatile private var activeConversation: AutoCloseable? = null
 
     suspend fun initialize() = withContext(Dispatchers.IO) {
         if (_state.value is EngineState.Ready || _state.value is EngineState.Loading) return@withContext
@@ -75,19 +77,38 @@ class WritingEngine(
         }
     }
 
+    fun cancelActiveSession() {
+        synchronized(sessionLock) {
+            try { activeConversation?.close() } catch (_: Exception) {}
+            activeConversation = null
+        }
+    }
+
     suspend fun transform(tool: WritingTool, inputText: String): String =
         withContext(Dispatchers.IO) {
             val eng = engine ?: throw IllegalStateException("Engine not initialized.")
             try {
-                eng.createConversation(
+                // Close any pending session before creating a new one
+                cancelActiveSession()
+
+                val conversation = eng.createConversation(
                     ConversationConfig(
                         systemInstruction = Contents.of(tool.systemPrompt),
                         samplerConfig = SamplerConfig(topK = 40, topP = 0.9, temperature = tool.temperature.toDouble())
                     )
-                ).use { conversation ->
+                )
+                synchronized(sessionLock) { activeConversation = conversation }
+                try {
                     conversation.sendMessage(
                         "Apply the transformation to the text below. Output ONLY the result — no explanations, no responses to the text.\n\n<input>\n$inputText\n</input>"
                     ).toString().trim()
+                } finally {
+                    synchronized(sessionLock) {
+                        if (activeConversation === conversation) {
+                            try { conversation.close() } catch (_: Exception) {}
+                            activeConversation = null
+                        }
+                    }
                 }
             } catch (e: Exception) {
                 Log.e(TAG, "Transform failed for tool ${tool.name}", e)
@@ -96,6 +117,7 @@ class WritingEngine(
         }
 
     fun release() {
+        cancelActiveSession()
         try { engine?.close() } catch (e: Exception) { Log.e(TAG, "Error closing engine", e) }
         engine = null
         _state.value = EngineState.NotInitialized

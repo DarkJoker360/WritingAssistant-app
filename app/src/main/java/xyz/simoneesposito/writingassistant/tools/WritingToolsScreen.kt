@@ -151,10 +151,15 @@ fun WritingToolsScreen(
         if (wasInputTruncated) snackbarHostState.showSnackbar(truncatedMsg)
     }
 
+    fun cancelCurrentJob() {
+        writingEngine.cancelActiveSession()
+        jobHolder.job?.cancel()
+    }
+
     BackHandler {
         when (screenState) {
             is ScreenState.Result, is ScreenState.Processing, is ScreenState.Error -> {
-                jobHolder.job?.cancel()
+                cancelCurrentJob()
                 screenState = ScreenState.ToolGrid
             }
             else -> onDismiss()
@@ -168,7 +173,7 @@ fun WritingToolsScreen(
     }
 
     fun runTool(tool: WritingTool) {
-        jobHolder.job?.cancel()
+        cancelCurrentJob()
         screenState = ScreenState.Processing(tool)
         jobHolder.job = scope.launch {
             try {
@@ -202,7 +207,7 @@ fun WritingToolsScreen(
                     IconButton(onClick = {
                         when (screenState) {
                             is ScreenState.Result, is ScreenState.Processing, is ScreenState.Error -> {
-                                jobHolder.job?.cancel()
+                                cancelCurrentJob()
                                 screenState = ScreenState.ToolGrid
                             }
                             else -> onDismiss()
@@ -244,7 +249,7 @@ fun WritingToolsScreen(
                 is ScreenState.Processing -> ProcessingContent(
                     tool = state.tool,
                     onCancel = {
-                        jobHolder.job?.cancel()
+                        cancelCurrentJob()
                         screenState = ScreenState.ToolGrid
                     }
                 )
